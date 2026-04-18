@@ -406,6 +406,10 @@ export function FormPage() {
                 src="/logo.jpeg" 
                 alt="SIR Logo" 
                 className="h-10 w-auto rounded-lg"
+                onError={(e) => {
+                  console.error('Erreur de chargement du logo:', e);
+                  e.currentTarget.src = '/favicon.svg'; // Fallback
+                }}
               />
             </div>
             <div className="hidden sm:block">
