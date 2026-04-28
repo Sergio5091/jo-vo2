@@ -267,7 +267,7 @@ export function StepCNPS({ defaultValues, onChange, onFileChange }: StepCNPSProp
               </p>
               <div className="bg-white p-4 rounded border border-gray-200">
                 <p className="font-medium text-gray-900">Paiement via WhatsApp / Wave :</p>
-                <p className="text-lg font-bold text-gray-900">225076755478</p>
+                <p className="text-lg font-bold text-gray-900">2250767554748</p>
               </div>
             </div>
 
